@@ -1,0 +1,74 @@
+/* Estilo general para el cuerpo */
+body, h1, nav, a, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; /* Fuente legible */
+}
+
+body {
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #ffffff; /* Texto claro */
+    padding: 20px; /* Espacio alrededor */
+    line-height: 1.5; /* Espaciado entre líneas */
+}
+
+/* Estilo para el título principal */
+h1 {
+    text-align: center; /* Centra el texto */
+    font-size: 2em; /* Tamaño grande */
+    text-transform: uppercase; /* Mayúsculas para estilo Star Wars */
+    color: #ff4d4d; /* Texto rojo */
+    border-bottom: 2px solid #333; /* Borde inferior */
+    padding-bottom: 10px; /* Espacio debajo del borde */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #333; /* Fondo oscuro para el encabezado */
+    padding: 10px; /* Espacio interno */
+    display: flex; /* Flex para alinear elementos */
+    justify-content: space-between; /* Alineación entre elementos */
+}
+
+/* Estilo para el menú de navegación */
+nav {
+    display: flex; /* Flex para alinear enlaces */
+    justify-content: flex-end; /* Alinación a la derecha */
+}
+
+nav a {
+    color: #ff4d4d; /* Texto rojo */
+    text-decoration: none; /* Sin subrayado */
+    padding: 10px 20px; /* Espacio interno */
+    transition: color 0.3s; /* Transición suave */
+}
+
+nav a:hover {
+    color: #ffffff; /* Texto blanco al pasar el ratón */
+    background-color: #000; /* Fondo negro al pasar el ratón */
+}
+
+/* Estilo para la lista de naves espaciales */
+#starships-list {
+    list-style: none; /* Elimina las viñetas */
+    padding: 0; /* Elimina el padding */
+    max-width: 600px; /* Ancho máximo para la lista */
+    margin: 0 auto; /* Centra la lista */
+}
+
+/* Estilo para los elementos de la lista de naves espaciales */
+#starships-list li {
+    background-color: #333; /* Fondo oscuro para elementos */
+    border: 1px solid #ff4d4d; /* Borde rojo */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 15px; /* Espacio interno */
+    margin-bottom: 10px; /* Espacio entre elementos */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+#starships-list li:hover {
+    background-color: #ff4d4d; /* Color rojo al pasar el ratón */
+    color: #ffffff; /* Texto blanco en hover */
+}

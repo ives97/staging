@@ -1,0 +1,81 @@
+
+/* Resetea estilos por defecto y define fuente base */
+body, h1, h2, nav, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; /* Fuente base */
+}
+
+body {
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #ffffff; /* Texto claro */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+/* Estilos para el encabezado principal */
+header {
+    text-align: center; /* Centra el encabezado */
+    padding: 20px; /* Agrega espacio alrededor */
+    background-color: #333; /* Fondo oscuro */
+    color: #ff4d4d; /* Texto rojo */
+}
+
+header h1 {
+    font-size: 3em; /* Tamaño grande para el título */
+}
+
+/* Estilos para el menú de navegación */
+nav {
+    background-color: #222; /* Fondo oscuro */
+    display: flex; /* Flexbox para alineación */
+    justify-content: center; /* Centra el contenido */
+    padding: 10px; /* Espacio interior */
+}
+
+nav a {
+    color: #ffffff; /* Texto claro */
+    text-decoration: none; /* Sin subrayado */
+    padding: 10px 20px; /* Espacio interno */
+    transition: background-color 0.3s; /* Transición suave */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+nav a:hover {
+    background-color: #ff4d4d; /* Color rojo al pasar el ratón */
+}
+
+/* Estilos para el área principal */
+main {
+    padding: 20px; /* Espacio alrededor */
+    max-width: 800px; /* Ancho máximo para contenido */
+    margin: 0 auto; /* Centra el contenido */
+}
+
+/* Estilos para las secciones */
+section {
+    background-color: #333; /* Fondo oscuro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+    padding: 20px; /* Espacio interno */
+    margin-bottom: 20px; /* Espacio entre secciones */
+}
+
+section h2 {
+    font-size: 1.8em; /* Tamaño de fuente para títulos de sección */
+    margin-bottom: 10px; /* Espacio bajo el título */
+    color: #ff4d4d; /* Texto rojo */
+}
+
+/* Estilos para las listas */
+ul {
+    list-style: none; /* Elimina las viñetas */
+}
+
+ul li {
+    margin-bottom: 10px; /* Espacio entre elementos de lista */
+}
+
+ul li strong {
+    color: #ff4d4d; /* Color rojo para el texto fuerte */
+}

@@ -1,0 +1,75 @@
+/* Estilos básicos y reseteos */
+body, h1, h2, nav, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #151515; /* Fondo oscuro */
+    color: #ffffff; /* Texto claro */
+    font-family: 'Roboto', sans-serif; /* Fuente moderna y legible */
+    line-height: 1.6; /* Espaciado entre líneas */
+    padding: 20px; /* Espacio alrededor */
+}
+
+/* Estilo para el título principal */
+h1 {
+    text-align: center; /* Centra el título */
+    color: #ff4d4d; /* Color de texto claro */
+    font-size: 3em; /* Tamaño del título */
+    margin-bottom: 20px; /* Espacio bajo el título */
+}
+
+/* Estilos para el menú de navegación */
+nav {
+    background-color: #333; /* Fondo oscuro para el menú */
+    display: flex; /* Flexbox para alinear enlaces */
+    justify-content: center; /* Centra el menú */
+    padding: 10px; /* Espacio interior */
+    border-bottom: 2px solid #666; /* Bordes para efecto metálico */
+}
+
+nav a {
+    color: #ffffff; /* Texto claro */
+    text-decoration: none; /* Sin subrayado */
+    padding: 10px 20px; /* Espacio interno */
+    transition: background-color 0.3s; /* Transición suave */
+    font-size: 1.2em; /* Tamaño de fuente */
+}
+
+nav a:hover {
+    background-color: #ff4d4d; /* Color claro al pasar el ratón */
+    color: #333; /* Texto oscuro al pasar el ratón */
+    border-radius: 5px; /* Bordes redondeados al pasar el ratón */
+}
+
+/* Estilo para la información de la especie */
+.species-info {
+    background-color: #222; /* Fondo oscuro para la sección */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para profundidad */
+    padding: 20px; /* Espacio interior */
+    margin: 20px auto; /* Espacio exterior y centrado */
+    max-width: 600px; /* Ancho máximo */
+}
+
+.species-info h2 {
+    text-align: center; /* Centra el título de la especie */
+    color: #ff4d4d; /* Texto claro */
+    font-size: 1.8em; /* Tamaño del título */
+    margin-bottom: 20px; /* Espacio bajo el título */
+}
+
+.species-info ul {
+    list-style: none; /* Elimina las viñetas */
+    padding: 10px; /* Espacio interno */
+}
+
+.species-info ul li {
+    margin-bottom: 10px; /* Espacio entre elementos de lista */
+}
+
+.species-info ul li strong {
+    color: #ff4d4d; /* Texto claro */
+}
